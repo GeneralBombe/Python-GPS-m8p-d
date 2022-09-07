@@ -3,7 +3,6 @@ a=0
 a+=1
 print(a)
 ##%%
-from asyncio.windows_events import NULL
 from copyreg import constructor
 from math import degrees
 from queue import Empty
@@ -16,7 +15,7 @@ import datetime as dt
 import ipdb
 from math import radians, cos, sin, asin, sqrt
 ##%%
-serPort = serial.Serial(port = "COM4", baudrate=9600,
+serPort = serial.Serial(port = "ttyS0", baudrate=9600,
                            bytesize=8, timeout=2, stopbits=serial.STOPBITS_ONE)
 
 class ublox:
