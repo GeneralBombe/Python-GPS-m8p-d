@@ -164,7 +164,7 @@ while True:
 print("Location 1: " + str(firstGPS) + " Location 2: " + str(lastGPS))
 print("Zeit 1:     " + str(firstTime)+ " Zeit 2:     " + str(finishTime))
 
-#Speed Calculation
+#Speed Calculatioasn
 
 print("Distance: " +  str(haversine(firstGPS[0], firstGPS[1], lastGPS[0], lastGPS[1])))
 Kmh = haversine(firstGPS[0], firstGPS[1], lastGPS[0], lastGPS[1]) / 5
