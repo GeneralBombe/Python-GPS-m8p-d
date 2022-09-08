@@ -13,8 +13,8 @@ import datetime as dt
 import ipdb
 from math import radians, cos, sin, asin, sqrt
 ##%%
-
-logging.basicConfig(filename="log.txt", level=logging.DEBUG)
+#lmfao
+logging.basicConfig(filename="log2.txt", level=logging.DEBUG)
 
 class imu:
     def __init__(self, serialPort):
