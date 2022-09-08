@@ -8,6 +8,9 @@ import logging
 import time
 import datetime as dt
 import ipdb
+import _thread
+
+
 from math import radians, cos, sin, asin, sqrt
 ##%%
 #lmfao
@@ -52,10 +55,9 @@ class ublox:
                 
         
     def getTime(self, utcplus):
-            
-           
             if(self.output[0:6] == "$GNGLL"):
-                #Example output: ['$GNGLL', '4805.45917', 'N', '01138.80482', 'E', '074351.00', 'A', 'A*79\r\n']
+                #Example output: ['$GNGLL', '4805.45917',
+                #'N', '01138.80482', 'E', '074351.00', 'A', 'A*79\r\n']
                 liste = self.output.split(",")
                 Zeit = liste[5]
                 if Zeit:
@@ -70,7 +72,8 @@ class ublox:
     def gpscord(self): 
             self.serialReadLine()
             if(self.output[0:6] == "$GNGLL"):
-                #Example output: ['$GNGLL', '4805.45917', 'N', '01138.80482', 'E', '074351.00', 'A', 'A*79\r\n']
+                #Example output: ['$GNGLL', '4805.45917',
+                #'N', '01138.80482', 'E', '074351.00', 'A', 'A*79\r\n']
                 liste = self.output.split(",")
                 
                 longitude = 0.0
@@ -198,14 +201,14 @@ class ublox:
             if Location[0] != -999:
                 Zeit = self.getTime(2)
                 if looplastgps != Location:
-                    logging.debug(Zeit)
-                    logging.debug(Location)
+                    logging.info(Zeit)
+                    logging.info(Location)
                     counter += 1
 
                 looplastgps = Location
 
                 if counter >= intervall + 5:
-                    logging.error("Timeout")
+                    logging.fatal("Timeout")
                     return None
                 
                 h = Zeit[0]
@@ -238,14 +241,17 @@ class ublox:
 
         "\nDistance: " +  format((self.haversine(firstGPS[0], firstGPS[1], lastGPS[0], lastGPS[1])), ".5f") + 
         "\nKmh: " + str(Kmh))
+        print(retr)
+        logging.info(retr)
         return distance, Kmh, firstGPS, lastGPS, firstTime, finishTime 
 
 serPort = serial.Serial(port = "/dev/ttyACM0", baudrate=9600,bytesize=8, timeout=2, stopbits=serial.STOPBITS_ONE)
 serPort2 = serial.Serial(port='/dev/ttyUSB0', baudrate=9600, timeout=1,
                        xonxoff=False, rtscts=False, dsrdtr=True)
 
-Objekt = ublox(serPort)
-print(Objekt.Speed())
+
+
+
 '''
 while True:
     Objekt = ublox(serPort)
