@@ -1,8 +1,5 @@
-##%%
-a=0
-a+=1
-print(a)
-##%%
+
+from asyncio.log import logger
 from copyreg import constructor
 from math import degrees
 from queue import Empty
@@ -128,7 +125,44 @@ class ublox:
                 liste = output.split(",")
                 return liste
             
-    
+    def customSerialOutput(self, tag):
+        output = ""
+        if(self.serialPort.in_waiting > 0):
+            output = self.serialPort.readline()
+            output = output.decode('Ascii')
+            
+            if output[0:6] == ("$" + tag ):
+                #Example output: ['$GNGLL', '4805.45917', 'N', '01138.80482', 'E', '074351.00', 'A', 'A*79\r\n']
+                liste = output.split(",")
+                return liste
+
+    def dateGNRMC(self):
+        while True:
+            op = self.customSerialOutput("GNRMC")
+            if op is not None:
+                Date = op[9]
+                Tag = int(Date[0:2])
+                Monat = int(Date[3:4])
+                Jahr = int(Date[5:6])
+                final = (Tag, Monat, Jahr)
+                logging.debug("Datum: " + str(final))
+
+    def speedParseGNVTG(self):
+        
+        while True:
+            op = self.serialOutput()
+           
+            if op is not None:
+                if op[0] == "$GNVTG":
+                    logging.debug("Hier!!!!")
+                    logging.debug("Speed Km/h: " + op[7])
+
+                    logging.debug(op)
+                    return op[7]
+                    
+                else:
+                    logger.debug(op[0])
+                
 
 
     def haversine(self, lon1, lat1, lon2, lat2):
@@ -145,7 +179,7 @@ class ublox:
         return R * c
     
     def Speed(self):
-        print("Drinn")
+        logging.debug("Drinn")
         retr = ""
         firstLoopTime = True
         firstTime = (1, 1, 1)
@@ -156,25 +190,23 @@ class ublox:
         intervall = 3
         Location = (0, -999)
         looplastgps = (1, 1)
+        counter = 0
         while running: 
 
-            self.serialReadLine()
 
             Location = self.gpscord()
             if Location[0] != -999:
-
-                
-
                 Zeit = self.getTime(2)
-
-                
                 if looplastgps != Location:
-                    print(Zeit)
-                    print(Location)
+                    logging.debug(Zeit)
+                    logging.debug(Location)
+                    counter += 1
 
                 looplastgps = Location
 
-
+                if counter >= intervall + 5:
+                    logging.error("Timeout")
+                    return None
                 
                 h = Zeit[0]
                 m = Zeit[1]
@@ -195,7 +227,9 @@ class ublox:
                         break
 
                 Location = (-999, -999)
-            
+
+        
+        distance = self.haversine(firstGPS[0], firstGPS[1], lastGPS[0], lastGPS[1])    
         Kmh = format(self.haversine(firstGPS[0], firstGPS[1], lastGPS[0], lastGPS[1]) / intervall, ".5f")
 
         retr = ("Location 1: " + str(firstGPS) + " Location 2: " + str(lastGPS) + "\nZeit 1:     " + str(firstTime)+ " Zeit 2:     " + str(finishTime) + 
@@ -204,18 +238,24 @@ class ublox:
 
         "\nDistance: " +  format((self.haversine(firstGPS[0], firstGPS[1], lastGPS[0], lastGPS[1])), ".5f") + 
         "\nKmh: " + str(Kmh))
-        return retr
+        return distance, Kmh, firstGPS, lastGPS, firstTime, finishTime 
 
 serPort = serial.Serial(port = "/dev/ttyACM0", baudrate=9600,bytesize=8, timeout=2, stopbits=serial.STOPBITS_ONE)
 serPort2 = serial.Serial(port='/dev/ttyUSB0', baudrate=9600, timeout=1,
                        xonxoff=False, rtscts=False, dsrdtr=True)
 
-#Objekt = ublox(serPort)
-#buffer = Objekt.Speed()
-
+Objekt = ublox(serPort)
+print(Objekt.Speed())
+'''
 while True:
-    Objekt2 = imu(serPort2)
-    Objekt2.serialOutput()
+    Objekt = ublox(serPort)
+    buffer = Objekt.serialOutput()
+    if buffer is not None:
+        logging.debug(buffer)
+        logging.debug(buffer)
+'''
+
+
     
 
 
