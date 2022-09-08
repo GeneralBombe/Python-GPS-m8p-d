@@ -16,6 +16,18 @@ from math import radians, cos, sin, asin, sqrt
 
 logging.basicConfig(filename="log.txt", level=logging.DEBUG)
 
+class imu:
+    def __init__(self, serialPort):
+        self.serialPort = serialPort
+    
+    def serialOutput(self):
+        output = ""
+        if(self.serialPort.in_waiting > 0):
+            output = self.serialPort.readline()
+            output = output.decode('Ascii')
+
+            print("op: " + output)
+
 class ublox:
     def __init__(self, serialPort):
         self.serialPort = serialPort
@@ -59,6 +71,7 @@ class ublox:
         
     
     def gpscord(self): 
+            self.serialReadLine()
             if(self.output[0:6] == "$GNGLL"):
                 #Example output: ['$GNGLL', '4805.45917', 'N', '01138.80482', 'E', '074351.00', 'A', 'A*79\r\n']
                 liste = self.output.split(",")
@@ -142,19 +155,27 @@ class ublox:
         running = True
         intervall = 3
         Location = (0, -999)
-
+        looplastgps = (1, 1)
         while running: 
 
             self.serialReadLine()
 
             Location = self.gpscord()
-            
             if Location[0] != -999:
-                logging.debug(Location)
+
+                
 
                 Zeit = self.getTime(2)
 
-                logging.debug(Zeit)
+                
+                if looplastgps != Location:
+                    print(Zeit)
+                    print(Location)
+
+                looplastgps = Location
+
+
+                
                 h = Zeit[0]
                 m = Zeit[1]
                 s = Zeit[2]
@@ -186,12 +207,18 @@ class ublox:
         return retr
 
 serPort = serial.Serial(port = "/dev/ttyACM0", baudrate=9600,bytesize=8, timeout=2, stopbits=serial.STOPBITS_ONE)
+serPort2 = serial.Serial(port='/dev/ttyUSB0', baudrate=9600, timeout=1,
+                       xonxoff=False, rtscts=False, dsrdtr=True)
 
-Objekt = ublox(serPort)
-buffer = Objekt.Speed()
-print(buffer)
-    #if buffer is not None:
-     #   print(buffer)
+#Objekt = ublox(serPort)
+#buffer = Objekt.Speed()
+
+while True:
+    Objekt2 = imu(serPort2)
+    Objekt2.serialOutput()
+    
+
+
    
 
 
