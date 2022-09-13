@@ -1,0 +1,17 @@
+[13.146s] Invoking command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/build/sensor_data': PYTHONPATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/install/sensor_data --editable --build-directory /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/build/sensor_data/build --no-deps install_data --install-dir /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/install/sensor_data
+[16.930s] running develop
+[19.504s] running egg_info
+[19.506s] writing sensor_data.egg-info/PKG-INFO
+[19.510s] writing dependency_links to sensor_data.egg-info/dependency_links.txt
+[19.512s] writing entry points to sensor_data.egg-info/entry_points.txt
+[19.515s] writing requirements to sensor_data.egg-info/requires.txt
+[19.516s] writing top-level names to sensor_data.egg-info/top_level.txt
+[19.540s] reading manifest file 'sensor_data.egg-info/SOURCES.txt'
+[19.548s] writing manifest file 'sensor_data.egg-info/SOURCES.txt'
+[19.568s] running build_ext
+[19.571s] Creating /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/install/sensor_data/lib/python3.10/site-packages/sensor-data.egg-link (link to .)
+[19.577s] Installing test_node script to /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/install/sensor_data/lib/sensor_data
+[19.582s] 
+[19.584s] Installed /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/build/sensor_data
+[19.586s] running install_data
+[19.964s] Invoked command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/build/sensor_data' returned '0': PYTHONPATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/install/sensor_data --editable --build-directory /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/build/sensor_data/build --no-deps install_data --install-dir /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/install/sensor_data

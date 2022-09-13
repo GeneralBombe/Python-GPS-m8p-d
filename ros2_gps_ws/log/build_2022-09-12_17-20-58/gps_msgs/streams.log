@@ -1,0 +1,252 @@
+[0.238s] Invoking command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/gps_umd/gps_msgs -DCMAKE_INSTALL_PREFIX=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs
+[2.174s] -- The C compiler identification is GNU 11.2.0
+[3.251s] -- The CXX compiler identification is GNU 11.2.0
+[3.350s] -- Detecting C compiler ABI info
+[4.176s] -- Detecting C compiler ABI info - done
+[4.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.240s] -- Detecting C compile features
+[4.246s] -- Detecting C compile features - done
+[4.279s] -- Detecting CXX compiler ABI info
+[5.056s] -- Detecting CXX compiler ABI info - done
+[5.120s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.122s] -- Detecting CXX compile features
+[5.126s] -- Detecting CXX compile features - done
+[5.181s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.238s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[8.697s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.763s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.918s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.663s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.249s] -- Found std_msgs: 4.2.2 (/opt/ros/humble/share/std_msgs/cmake)
+[13.890s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[16.076s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.814s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.040s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.4", minimum required is "3.6") 
+[19.084s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[19.359s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.4", minimum required is "3.5") 
+[19.360s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[19.363s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[19.364s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[19.569s] -- Found PythonExtra: .so  
+[20.129s] -- Configuring done
+[20.524s] -- Generating done
+[20.552s] -- Build files have been written to: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_msgs
+[20.605s] Invoked command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/gps_umd/gps_msgs -DCMAKE_INSTALL_PREFIX=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs
+[20.624s] Invoking command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_msgs -- -j4 -l4
+[20.946s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[21.030s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[21.104s] [  5%] Built target ament_cmake_python_copy_gps_msgs
+[24.743s] running egg_info
+[24.750s] creating gps_msgs.egg-info
+[24.752s] writing gps_msgs.egg-info/PKG-INFO
+[24.754s] writing dependency_links to gps_msgs.egg-info/dependency_links.txt
+[24.756s] writing top-level names to gps_msgs.egg-info/top_level.txt
+[24.759s] writing manifest file 'gps_msgs.egg-info/SOURCES.txt'
+[24.779s] reading manifest file 'gps_msgs.egg-info/SOURCES.txt'
+[24.793s] writing manifest file 'gps_msgs.egg-info/SOURCES.txt'
+[25.094s] [  5%] Built target ament_cmake_python_build_gps_msgs_egg
+[31.994s] [  5%] Built target gps_msgs__cpp
+[32.149s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[32.158s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[32.179s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[32.295s] [ 15%] [32mBuilding C object CMakeFiles/gps_msgs__rosidl_generator_c.dir/rosidl_generator_c/gps_msgs/msg/detail/gps_fix__functions.c.o[0m
+[33.511s] [ 17%] [32mBuilding C object CMakeFiles/gps_msgs__rosidl_generator_c.dir/rosidl_generator_c/gps_msgs/msg/detail/gps_status__functions.c.o[0m
+[34.390s] [ 20%] [32m[1mLinking C shared library libgps_msgs__rosidl_generator_c.so[0m
+[34.908s] [ 20%] Built target gps_msgs__rosidl_generator_c
+[35.014s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[44.617s] [ 25%] [32mBuilding CXX object CMakeFiles/gps_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gps_msgs/msg/gps_fix__type_support.cpp.o[0m
+[44.815s] [ 28%] [32mBuilding CXX object CMakeFiles/gps_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gps_msgs/msg/detail/dds_fastrtps/gps_fix__type_support.cpp.o[0m
+[45.092s] [ 30%] [32mBuilding CXX object CMakeFiles/gps_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gps_msgs/msg/detail/gps_fix__type_support.cpp.o[0m
+[47.728s] [ 33%] [32mBuilding CXX object CMakeFiles/gps_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gps_msgs/msg/detail/gps_fix__type_support_c.cpp.o[0m
+[52.061s] [ 35%] [32mBuilding CXX object CMakeFiles/gps_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gps_msgs/msg/gps_status__type_support.cpp.o[0m
+[52.147s] [ 41%] [32mBuilding CXX object CMakeFiles/gps_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gps_msgs/msg/detail/dds_fastrtps/gps_status__type_support.cpp.o[0m
+[52.156s] [ 41%] [32mBuilding CXX object CMakeFiles/gps_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gps_msgs/msg/detail/gps_status__type_support.cpp.o[0m
+[56.163s] [ 43%] [32mBuilding CXX object CMakeFiles/gps_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gps_msgs/msg/detail/gps_status__type_support_c.cpp.o[0m
+[56.351s] [ 46%] [32m[1mLinking CXX shared library libgps_msgs__rosidl_typesupport_cpp.so[0m
+[56.888s] [ 46%] Built target gps_msgs__rosidl_typesupport_cpp
+[57.015s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[58.588s] [ 51%] [32m[1mLinking CXX shared library libgps_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[59.139s] [ 53%] [32m[1mLinking CXX shared library libgps_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[59.730s] [ 53%] Built target gps_msgs__rosidl_typesupport_introspection_cpp
+[59.957s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[60.415s] [ 56%] Built target gps_msgs__rosidl_typesupport_fastrtps_cpp
+[61.682s] [ 58%] [32m[1mLinking CXX shared library libgps_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[62.570s] [ 58%] Built target gps_msgs__rosidl_typesupport_fastrtps_c
+[68.788s] [ 61%] [32mBuilding C object CMakeFiles/gps_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gps_msgs/msg/detail/gps_fix__type_support.c.o[0m
+[68.797s] [ 64%] [32mBuilding C object CMakeFiles/gps_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gps_msgs/msg/detail/gps_status__type_support.c.o[0m
+[69.448s] [ 66%] [32m[1mLinking C shared library libgps_msgs__rosidl_typesupport_introspection_c.so[0m
+[69.762s] [ 66%] Built target gps_msgs__rosidl_typesupport_introspection_c
+[70.369s] [ 69%] [32mBuilding CXX object CMakeFiles/gps_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gps_msgs/msg/gps_status__type_support.cpp.o[0m
+[70.376s] [ 71%] [32mBuilding CXX object CMakeFiles/gps_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gps_msgs/msg/gps_fix__type_support.cpp.o[0m
+[70.722s] [ 74%] [32m[1mLinking CXX shared library libgps_msgs__rosidl_typesupport_c.so[0m
+[71.083s] [ 74%] Built target gps_msgs__rosidl_typesupport_c
+[71.263s] [ 74%] Built target gps_msgs
+[71.442s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[91.216s] [ 76%] Built target gps_msgs__py
+[91.400s] [ 79%] [32mBuilding C object CMakeFiles/gps_msgs__rosidl_generator_py.dir/rosidl_generator_py/gps_msgs/msg/_gps_fix_s.c.o[0m
+[91.406s] [ 82%] [32mBuilding C object CMakeFiles/gps_msgs__rosidl_generator_py.dir/rosidl_generator_py/gps_msgs/msg/_gps_status_s.c.o[0m
+[93.438s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/gps_msgs/libgps_msgs__rosidl_generator_py.so[0m
+[93.895s] [ 84%] Built target gps_msgs__rosidl_generator_py
+[94.110s] [ 87%] [32mBuilding C object CMakeFiles/gps_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gps_msgs/_gps_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[94.119s] [ 89%] [32mBuilding C object CMakeFiles/gps_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gps_msgs/_gps_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[94.129s] [ 92%] [32mBuilding C object CMakeFiles/gps_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gps_msgs/_gps_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[95.392s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/gps_msgs/gps_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[95.396s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/gps_msgs/gps_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[95.412s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gps_msgs/gps_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[95.968s] [100%] Built target gps_msgs__rosidl_typesupport_fastrtps_c__pyext
+[95.971s] [100%] Built target gps_msgs__rosidl_typesupport_introspection_c__pyext
+[95.992s] [100%] Built target gps_msgs__rosidl_typesupport_c__pyext
+[96.092s] Invoked command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_msgs -- -j4 -l4
+[97.177s] Invoking command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_msgs
+[97.257s] -- Install configuration: ""
+[97.271s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/ament_index/resource_index/rosidl_interfaces/gps_msgs
+[97.275s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs
+[97.278s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg
+[97.279s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/gps_status.h
+[97.282s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/rosidl_generator_c__visibility_control.h
+[97.285s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail
+[97.288s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_status__type_support.h
+[97.290s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_fix__functions.h
+[97.293s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_status__functions.c
+[97.296s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_fix__functions.c
+[97.299s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_status__functions.h
+[97.302s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_fix__type_support.h
+[97.304s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_status__struct.h
+[97.306s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_fix__struct.h
+[97.309s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/gps_fix.h
+[97.312s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/environment/library_path.sh
+[97.315s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/environment/library_path.dsv
+[97.319s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_generator_c.so
+[97.325s] -- Set runtime path of "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_generator_c.so" to ""
+[97.326s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs
+[97.327s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg
+[97.328s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[97.330s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail
+[97.331s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_status__rosidl_typesupport_fastrtps_c.h
+[97.334s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_fix__rosidl_typesupport_fastrtps_c.h
+[97.337s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_typesupport_fastrtps_c.so
+[97.343s] -- Set runtime path of "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[97.345s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs
+[97.346s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg
+[97.347s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail
+[97.348s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_status__type_support.c
+[97.350s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_status__rosidl_typesupport_introspection_c.h
+[97.353s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_fix__type_support.c
+[97.356s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_fix__rosidl_typesupport_introspection_c.h
+[97.359s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[97.362s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_typesupport_introspection_c.so
+[97.367s] -- Set runtime path of "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_typesupport_introspection_c.so" to ""
+[97.369s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_typesupport_c.so
+[97.374s] -- Set runtime path of "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_typesupport_c.so" to ""
+[97.375s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs
+[97.376s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg
+[97.377s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/gps_fix.hpp
+[97.379s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail
+[97.380s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_status__struct.hpp
+[97.383s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_fix__builder.hpp
+[97.386s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_status__builder.hpp
+[97.389s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_status__traits.hpp
+[97.392s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_fix__traits.hpp
+[97.394s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_fix__struct.hpp
+[97.397s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/gps_status.hpp
+[97.400s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs
+[97.401s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg
+[97.402s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[97.404s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail
+[97.405s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_fix__rosidl_typesupport_fastrtps_cpp.hpp
+[97.408s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/dds_fastrtps
+[97.410s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_status__rosidl_typesupport_fastrtps_cpp.hpp
+[97.413s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_typesupport_fastrtps_cpp.so
+[97.420s] -- Set runtime path of "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[97.422s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs
+[97.423s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg
+[97.424s] -- Up-to-date: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail
+[97.425s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_status__rosidl_typesupport_introspection_cpp.hpp
+[97.426s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_fix__rosidl_typesupport_introspection_cpp.hpp
+[97.429s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_status__type_support.cpp
+[97.432s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/gps_msgs/gps_msgs/msg/detail/gps_fix__type_support.cpp
+[97.436s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_typesupport_introspection_cpp.so
+[97.442s] -- Set runtime path of "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[97.444s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_typesupport_cpp.so
+[97.449s] -- Set runtime path of "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_typesupport_cpp.so" to ""
+[97.450s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/environment/pythonpath.sh
+[97.452s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/environment/pythonpath.dsv
+[97.455s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs-1.0.5-py3.10.egg-info
+[97.457s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs-1.0.5-py3.10.egg-info/top_level.txt
+[97.460s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs-1.0.5-py3.10.egg-info/dependency_links.txt
+[97.462s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs-1.0.5-py3.10.egg-info/PKG-INFO
+[97.465s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs-1.0.5-py3.10.egg-info/SOURCES.txt
+[97.468s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs
+[97.470s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/_gps_msgs_s.ep.rosidl_typesupport_c.c
+[97.472s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/msg
+[97.474s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/msg/_gps_fix_s.c
+[97.477s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/msg/_gps_status.py
+[97.480s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/msg/_gps_status_s.c
+[97.484s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/msg/_gps_fix.py
+[97.487s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/msg/__init__.py
+[97.490s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/gps_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[97.493s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/gps_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[97.496s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/libgps_msgs__rosidl_generator_py.so
+[97.500s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/_gps_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[97.503s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/__init__.py
+[97.506s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/gps_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[97.509s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/_gps_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[97.968s] Listing '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs'...
+[97.970s] Compiling '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/__init__.py'...
+[97.972s] Listing '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/msg'...
+[97.974s] Compiling '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/msg/__init__.py'...
+[97.976s] Compiling '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/msg/_gps_fix.py'...
+[97.978s] Compiling '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/msg/_gps_status.py'...
+[98.037s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/gps_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[98.044s] -- Set runtime path of "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/gps_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[98.047s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/gps_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[98.053s] -- Set runtime path of "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/gps_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[98.057s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/gps_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[98.063s] -- Set runtime path of "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages/gps_msgs/gps_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[98.435s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_generator_py.so
+[98.442s] -- Set runtime path of "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib/libgps_msgs__rosidl_generator_py.so" to ""
+[98.443s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/msg/GPSFix.idl
+[98.446s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/msg/GPSStatus.idl
+[98.449s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/msg/GPSFix.msg
+[98.453s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/msg/GPSStatus.msg
+[98.458s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/ament_index/resource_index/package_run_dependencies/gps_msgs
+[98.463s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/ament_index/resource_index/parent_prefix_path/gps_msgs
+[98.467s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/environment/ament_prefix_path.sh
+[98.470s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/environment/ament_prefix_path.dsv
+[98.474s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/environment/path.sh
+[98.477s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/environment/path.dsv
+[98.480s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/local_setup.bash
+[98.483s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/local_setup.sh
+[98.487s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/local_setup.zsh
+[98.490s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/local_setup.dsv
+[98.510s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/package.dsv
+[98.512s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/ament_index/resource_index/packages/gps_msgs
+[98.515s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/export_gps_msgs__rosidl_generator_cExport.cmake
+[98.516s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/export_gps_msgs__rosidl_generator_cExport-noconfig.cmake
+[98.518s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/export_gps_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[98.520s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/export_gps_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[98.522s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/gps_msgs__rosidl_typesupport_introspection_cExport.cmake
+[98.524s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/gps_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[98.526s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/gps_msgs__rosidl_typesupport_cExport.cmake
+[98.529s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/gps_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[98.532s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/export_gps_msgs__rosidl_generator_cppExport.cmake
+[98.536s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/export_gps_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[98.539s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/export_gps_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[98.542s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/gps_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[98.546s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/gps_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[98.549s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/gps_msgs__rosidl_typesupport_cppExport.cmake
+[98.552s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/gps_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[98.555s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/export_gps_msgs__rosidl_generator_pyExport.cmake
+[98.558s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/export_gps_msgs__rosidl_generator_pyExport-noconfig.cmake
+[98.561s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/rosidl_cmake-extras.cmake
+[98.564s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[98.567s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[98.570s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[98.573s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[98.577s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[98.580s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[98.583s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/gps_msgsConfig.cmake
+[98.586s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake/gps_msgsConfig-version.cmake
+[98.589s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/package.xml
+[98.592s] -- Installing: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/ros1_ros2_mapping.yaml
+[98.626s] Invoked command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_msgs

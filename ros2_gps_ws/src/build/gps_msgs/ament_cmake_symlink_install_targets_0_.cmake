@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/build/gps_msgs/rosidl_generator_py/gps_msgs/gps_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "gps_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/gps_msgs")

@@ -1,0 +1,38 @@
+[0.140s] Invoking command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gpsd_client': AMENT_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/gps_umd/install/gps_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/gps_umd/gpsd_client -DCMAKE_INSTALL_PREFIX=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gpsd_client
+[0.766s] -- The C compiler identification is GNU 11.2.0
+[1.387s] -- The CXX compiler identification is GNU 11.2.0
+[1.460s] -- Detecting C compiler ABI info
+[2.254s] -- Detecting C compiler ABI info - done
+[2.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.323s] -- Detecting C compile features
+[2.327s] -- Detecting C compile features - done
+[2.354s] -- Detecting CXX compiler ABI info
+[3.231s] -- Detecting CXX compiler ABI info - done
+[3.305s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.308s] -- Detecting CXX compile features
+[3.312s] -- Detecting CXX compile features - done
+[3.372s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.584s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[6.941s] -- Found gps_msgs: 1.0.5 (/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/share/gps_msgs/cmake)
+[7.640s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.748s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.886s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.106s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.393s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.711s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[10.735s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.800s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.281s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.759s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.585s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[22.631s] -- Found rclcpp_components: 16.0.1 (/opt/ros/humble/share/rclcpp_components/cmake)
+[24.027s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[25.347s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[25.354s] -- Checking for module 'libgps'
+[25.486s] --   Found libgps, version 3.22
+[26.626s] -- Configuring done
+[26.784s] -- Generating done
+[26.802s] -- Build files have been written to: /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gpsd_client
+[26.894s] Invoked command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gpsd_client' returned '0': AMENT_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/gps_umd/install/gps_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/gps_umd/gpsd_client -DCMAKE_INSTALL_PREFIX=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gpsd_client
+[26.907s] Invoking command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gpsd_client': AMENT_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/gps_umd/install/gps_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gpsd_client -- -j4 -l4
+[27.407s] [ 50%] [32mBuilding CXX object CMakeFiles/gpsd_client.dir/src/client.cpp.o[0m
