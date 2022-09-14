@@ -1,3 +1,4 @@
+GPSStatus status
 
 # Latitude (degrees). Positive is north of equator; negative is south.
 float64 latitude

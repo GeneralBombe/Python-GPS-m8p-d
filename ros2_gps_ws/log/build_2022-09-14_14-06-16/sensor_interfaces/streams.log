@@ -1,0 +1,44 @@
+[0.137s] Invoking command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/sensor_interfaces -DCMAKE_INSTALL_PREFIX=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_interfaces
+[0.704s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.370s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.395s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.432s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.918s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.377s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[5.378s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[5.380s]   sensor_interfaces --arguments-file
+[5.381s]   /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_interfaces/rosidl_adapter__arguments__sensor_interfaces.json
+[5.382s]   --output-dir
+[5.383s]   /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_interfaces/rosidl_adapter/sensor_interfaces
+[5.385s]   --output-file
+[5.386s]   /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_interfaces/rosidl_adapter/sensor_interfaces.idls)
+[5.387s]   returned error code 1:
+[5.388s] 
+[5.390s]   Traceback (most recent call last):
+[5.391s] 
+[5.392s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[5.393s]       return _run_code(code, main_globals, None,
+[5.394s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[5.395s]       exec(code, run_globals)
+[5.396s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[5.397s]       sys.exit(main())
+[5.398s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[5.399s]       abs_idl_file = convert_to_idl(
+[5.400s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[5.401s]       return convert_srv_to_idl(
+[5.402s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[5.404s]       srv = parse_service_string(package_name, input_file.stem, content)
+[5.405s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 850, in parse_service_string
+[5.407s]       raise InvalidServiceSpecification(
+[5.408s] 
+[5.409s]   rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator
+[5.411s]   '---' between request and response
+[5.412s] 
+[5.413s] Call Stack (most recent call first):
+[5.414s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[5.416s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[5.417s] 
+[5.418s] [0m
+[5.419s] -- Configuring incomplete, errors occurred!
+[5.419s] See also "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_interfaces/CMakeFiles/CMakeOutput.log".
+[5.467s] Invoked command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/sensor_interfaces -DCMAKE_INSTALL_PREFIX=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_interfaces
