@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
- 
+
+from gps_msgs import FIXGps
 
 class MyNode(Node):
     def __init__(self):
@@ -20,7 +21,6 @@ def main(args=None):
     rclpy.shutdown()
 
 if __name__ == '__main__':
-    try:
-        main()
+            main()
     
         

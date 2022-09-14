@@ -1,7 +1,0 @@
-{
-  "package_name": "gps_msgs",
-  "non_idl_tuples": [
-    "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/gps_umd/gps_msgs:msg/GPSFix.msg",
-    "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/gps_umd/gps_msgs:msg/GPSStatus.msg"
-  ]
-}

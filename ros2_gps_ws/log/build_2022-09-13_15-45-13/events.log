@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.004923] (-) JobUnselected: {'identifier': 'gps_msgs'}
+[0.009799] (-) JobUnselected: {'identifier': 'gps_tools'}
+[0.010511] (-) JobUnselected: {'identifier': 'gps_umd'}
+[0.011016] (-) JobUnselected: {'identifier': 'gpsd_client'}
+[0.011526] (sensor_data) JobQueued: {'identifier': 'sensor_data', 'dependencies': OrderedDict()}
+[0.011973] (sensor_data) JobStarted: {'identifier': 'sensor_data'}
+[0.096319] (-) TimerEvent: {}
+[0.200832] (-) TimerEvent: {}
+[0.303693] (-) TimerEvent: {}
+[0.407078] (-) TimerEvent: {}
+[0.513460] (-) TimerEvent: {}
+[0.618825] (-) TimerEvent: {}
+[0.720597] (-) TimerEvent: {}
+[0.822372] (-) TimerEvent: {}
+[0.924209] (-) TimerEvent: {}
+[1.029455] (-) TimerEvent: {}
+[1.131370] (-) TimerEvent: {}
+[1.233293] (-) TimerEvent: {}
+[1.338758] (-) TimerEvent: {}
+[1.440445] (-) TimerEvent: {}
+[1.552455] (-) TimerEvent: {}
+[1.656499] (-) TimerEvent: {}
+[1.758220] (-) TimerEvent: {}
+[1.865099] (-) TimerEvent: {}
+[1.971600] (-) TimerEvent: {}
+[2.073339] (-) TimerEvent: {}
+[2.177694] (-) TimerEvent: {}
+[2.279555] (-) TimerEvent: {}
+[2.381047] (-) TimerEvent: {}
+[2.485001] (-) TimerEvent: {}
+[2.587270] (-) TimerEvent: {}
+[2.688680] (-) TimerEvent: {}
+[2.790128] (-) TimerEvent: {}
+[2.891537] (-) TimerEvent: {}
+[2.992961] (-) TimerEvent: {}
+[3.094360] (-) TimerEvent: {}
+[3.199456] (-) TimerEvent: {}
+[3.300777] (-) TimerEvent: {}
+[3.519725] (-) TimerEvent: {}
+[3.621220] (-) TimerEvent: {}
+[3.723674] (-) TimerEvent: {}
+[3.825133] (-) TimerEvent: {}
+[3.926938] (-) TimerEvent: {}
+[4.033483] (-) TimerEvent: {}
+[4.140321] (-) TimerEvent: {}
+[4.251795] (-) TimerEvent: {}
+[4.356820] (-) TimerEvent: {}
+[4.458623] (-) TimerEvent: {}
+[4.560318] (-) TimerEvent: {}
+[4.661688] (-) TimerEvent: {}
+[4.763050] (-) TimerEvent: {}
+[4.864577] (-) TimerEvent: {}
+[4.966143] (-) TimerEvent: {}
+[5.067672] (-) TimerEvent: {}
+[5.168907] (-) TimerEvent: {}
+[5.270423] (-) TimerEvent: {}
+[5.372004] (-) TimerEvent: {}
+[5.473405] (-) TimerEvent: {}
+[5.574659] (-) TimerEvent: {}
+[5.675902] (-) TimerEvent: {}
+[5.777255] (-) TimerEvent: {}
+[5.878560] (-) TimerEvent: {}
+[5.979896] (-) TimerEvent: {}
+[6.081311] (-) TimerEvent: {}
+[6.189977] (-) TimerEvent: {}
+[6.292354] (-) TimerEvent: {}
+[6.395801] (-) TimerEvent: {}
+[6.497042] (-) TimerEvent: {}
+[6.598365] (-) TimerEvent: {}
+[6.700033] (-) TimerEvent: {}
+[6.801726] (-) TimerEvent: {}
+[6.903038] (-) TimerEvent: {}
+[7.004334] (-) TimerEvent: {}
+[7.105951] (-) TimerEvent: {}
+[7.207198] (-) TimerEvent: {}
+[7.308474] (-) TimerEvent: {}
+[7.409864] (-) TimerEvent: {}
+[7.511862] (-) TimerEvent: {}
+[7.613675] (-) TimerEvent: {}
+[7.715504] (-) TimerEvent: {}
+[7.816987] (-) TimerEvent: {}
+[7.918545] (-) TimerEvent: {}
+[8.020229] (-) TimerEvent: {}
+[8.121830] (-) TimerEvent: {}
+[8.223463] (-) TimerEvent: {}
+[8.325237] (-) TimerEvent: {}
+[8.427154] (-) TimerEvent: {}
+[8.528640] (-) TimerEvent: {}
+[8.630309] (-) TimerEvent: {}
+[8.731688] (-) TimerEvent: {}
+[8.833443] (-) TimerEvent: {}
+[8.935236] (-) TimerEvent: {}
+[9.036971] (-) TimerEvent: {}
+[9.138742] (-) TimerEvent: {}
+[9.240513] (-) TimerEvent: {}
+[9.342286] (-) TimerEvent: {}
+[9.444089] (-) TimerEvent: {}
+[9.545812] (-) TimerEvent: {}
+[9.647294] (-) TimerEvent: {}
+[9.748489] (-) TimerEvent: {}
+[9.850738] (-) TimerEvent: {}
+[9.952661] (-) TimerEvent: {}
+[10.054526] (-) TimerEvent: {}
+[10.156315] (-) TimerEvent: {}
+[10.257952] (-) TimerEvent: {}
+[10.359487] (-) TimerEvent: {}
+[10.460848] (-) TimerEvent: {}
+[10.562848] (-) TimerEvent: {}
+[10.664628] (-) TimerEvent: {}
+[10.766787] (-) TimerEvent: {}
+[10.868147] (-) TimerEvent: {}
+[10.969930] (-) TimerEvent: {}
+[11.071534] (-) TimerEvent: {}
+[11.173351] (-) TimerEvent: {}
+[11.274779] (-) TimerEvent: {}
+[11.376374] (-) TimerEvent: {}
+[11.478334] (-) TimerEvent: {}
+[11.580212] (-) TimerEvent: {}
+[11.682683] (-) TimerEvent: {}
+[11.784709] (-) TimerEvent: {}
+[11.886563] (-) TimerEvent: {}
+[11.988388] (-) TimerEvent: {}
+[12.090252] (-) TimerEvent: {}
+[12.192061] (-) TimerEvent: {}
+[12.293733] (-) TimerEvent: {}
+[12.395601] (-) TimerEvent: {}
+[12.497391] (-) TimerEvent: {}
+[12.599161] (-) TimerEvent: {}
+[12.700877] (-) TimerEvent: {}
+[12.802705] (-) TimerEvent: {}
+[12.904195] (-) TimerEvent: {}
+[13.005766] (-) TimerEvent: {}
+[13.107894] (-) TimerEvent: {}
+[13.209912] (-) TimerEvent: {}
+[13.311320] (-) TimerEvent: {}
+[13.412846] (-) TimerEvent: {}
+[13.514783] (-) TimerEvent: {}
+[13.616451] (-) TimerEvent: {}
+[13.718229] (-) TimerEvent: {}
+[13.820068] (-) TimerEvent: {}
+[13.921790] (-) TimerEvent: {}
+[14.023318] (-) TimerEvent: {}
+[14.124986] (-) TimerEvent: {}
+[14.226269] (-) TimerEvent: {}
+[14.328318] (-) TimerEvent: {}
+[14.429874] (-) TimerEvent: {}
+[14.531677] (-) TimerEvent: {}
+[14.633235] (-) TimerEvent: {}
+[14.734757] (-) TimerEvent: {}
+[14.836262] (-) TimerEvent: {}
+[14.938039] (-) TimerEvent: {}
+[15.039794] (-) TimerEvent: {}
+[15.141498] (-) TimerEvent: {}
+[15.243219] (-) TimerEvent: {}
+[15.344973] (-) TimerEvent: {}
+[15.446802] (-) TimerEvent: {}
+[15.548511] (-) TimerEvent: {}
+[15.609758] (sensor_data) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sensor_data', 'build', '--build-base', '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/build', 'install', '--prefix', '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data', '--record', '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/sensor_data', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.43.159 53615 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'TERM_PROGRAM_VERSION': '1.71.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-67339384-8f28-42b2-a748-7f92b1e5f6e1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-5513d89785.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.43.159 53615 192.168.43.252 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[15.648814] (-) TimerEvent: {}
+[15.754976] (-) TimerEvent: {}
+[15.857078] (-) TimerEvent: {}
+[15.958355] (-) TimerEvent: {}
+[16.059723] (-) TimerEvent: {}
+[16.162061] (-) TimerEvent: {}
+[16.263766] (-) TimerEvent: {}
+[16.367502] (-) TimerEvent: {}
+[16.469341] (-) TimerEvent: {}
+[16.570811] (-) TimerEvent: {}
+[16.672284] (-) TimerEvent: {}
+[16.775191] (-) TimerEvent: {}
+[16.876602] (-) TimerEvent: {}
+[16.978009] (-) TimerEvent: {}
+[17.079820] (-) TimerEvent: {}
+[17.181354] (-) TimerEvent: {}
+[17.284687] (-) TimerEvent: {}
+[17.386347] (-) TimerEvent: {}
+[17.489464] (-) TimerEvent: {}
+[17.593591] (-) TimerEvent: {}
+[17.695166] (-) TimerEvent: {}
+[17.800608] (-) TimerEvent: {}
+[17.902162] (-) TimerEvent: {}
+[18.004273] (-) TimerEvent: {}
+[18.105846] (-) TimerEvent: {}
+[18.207101] (-) TimerEvent: {}
+[18.308262] (-) TimerEvent: {}
+[18.409439] (-) TimerEvent: {}
+[18.511169] (-) TimerEvent: {}
+[18.612749] (-) TimerEvent: {}
+[18.714231] (-) TimerEvent: {}
+[18.741110] (sensor_data) StdoutLine: {'line': b'running egg_info\n'}
+[18.746185] (sensor_data) StdoutLine: {'line': b'writing ../../build/sensor_data/sensor_data.egg-info/PKG-INFO\n'}
+[18.758345] (sensor_data) StdoutLine: {'line': b'writing dependency_links to ../../build/sensor_data/sensor_data.egg-info/dependency_links.txt\n'}
+[18.761721] (sensor_data) StdoutLine: {'line': b'writing entry points to ../../build/sensor_data/sensor_data.egg-info/entry_points.txt\n'}
+[18.765791] (sensor_data) StdoutLine: {'line': b'writing requirements to ../../build/sensor_data/sensor_data.egg-info/requires.txt\n'}
+[18.772858] (sensor_data) StdoutLine: {'line': b'writing top-level names to ../../build/sensor_data/sensor_data.egg-info/top_level.txt\n'}
+[18.789667] (sensor_data) StdoutLine: {'line': b"reading manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'\n"}
+[18.798060] (sensor_data) StdoutLine: {'line': b"writing manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'\n"}
+[18.814620] (-) TimerEvent: {}
+[18.823215] (sensor_data) StdoutLine: {'line': b'running build\n'}
+[18.825015] (sensor_data) StdoutLine: {'line': b'running build_py\n'}
+[18.827976] (sensor_data) StdoutLine: {'line': b'running install\n'}
+[18.831380] (sensor_data) StdoutLine: {'line': b'running install_lib\n'}
+[18.842842] (sensor_data) StdoutLine: {'line': b'byte-compiling /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[18.861894] (sensor_data) StderrLine: {'line': b'  File "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/my_first_node.py", line 26\n'}
+[18.863883] (sensor_data) StderrLine: {'line': b'    \n'}
+[18.865583] (sensor_data) StderrLine: {'line': b'    ^\n'}
+[18.867224] (sensor_data) StderrLine: {'line': b"SyntaxError: expected 'except' or 'finally' block\n"}
+[18.868940] (sensor_data) StderrLine: {'line': b'\n'}
+[18.870814] (sensor_data) StdoutLine: {'line': b'running install_data\n'}
+[18.872435] (sensor_data) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.884331] (sensor_data) StdoutLine: {'line': b"removing '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[18.914928] (-) TimerEvent: {}
+[19.016770] (-) TimerEvent: {}
+[19.119067] (-) TimerEvent: {}
+[19.220660] (-) TimerEvent: {}
+[19.322032] (-) TimerEvent: {}
+[19.398178] (sensor_data) StdoutLine: {'line': b'Copying ../../build/sensor_data/sensor_data.egg-info to /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info\n'}
+[19.422368] (-) TimerEvent: {}
+[19.498882] (sensor_data) StdoutLine: {'line': b'running install_scripts\n'}
+[19.522963] (-) TimerEvent: {}
+[19.624598] (-) TimerEvent: {}
+[19.703473] (sensor_data) StdoutLine: {'line': b'Installing test_node script to /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/sensor_data\n'}
+[19.710190] (sensor_data) StdoutLine: {'line': b"writing list of installed files to '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/install.log'\n"}
+[19.725154] (-) TimerEvent: {}
+[19.827267] (-) TimerEvent: {}
+[19.929077] (-) TimerEvent: {}
+[20.030888] (-) TimerEvent: {}
+[20.113997] (sensor_data) CommandEnded: {'returncode': 0}
+[20.131247] (-) TimerEvent: {}
+[20.234188] (-) TimerEvent: {}
+[20.345433] (-) TimerEvent: {}
+[20.404637] (sensor_data) JobEnded: {'identifier': 'sensor_data', 'rc': 0}
+[20.413567] (-) EventReactorShutdown: {}

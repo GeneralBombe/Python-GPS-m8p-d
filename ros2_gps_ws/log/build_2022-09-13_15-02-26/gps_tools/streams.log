@@ -1,0 +1,11 @@
+[0.197s] Invoking command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_tools': AMENT_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/install/sensor_data:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_tools -- -j4 -l4
+[1.273s] [ 25%] [32mBuilding CXX object CMakeFiles/utm_odometry_component.dir/src/utm_odometry_component.cpp.o[0m
+[1.329s] [ 50%] [32mBuilding CXX object CMakeFiles/utm_odometry_to_navsatfix_component.dir/src/utm_odometry_to_navsatfix_component.cpp.o[0m
+[1.395s] [ 50%] Built target ament_cmake_python_copy_gps_tools
+[10.697s] running egg_info
+[10.705s] writing gps_tools.egg-info/PKG-INFO
+[10.708s] writing dependency_links to gps_tools.egg-info/dependency_links.txt
+[10.711s] writing top-level names to gps_tools.egg-info/top_level.txt
+[10.778s] reading manifest file 'gps_tools.egg-info/SOURCES.txt'
+[10.795s] writing manifest file 'gps_tools.egg-info/SOURCES.txt'
+[13.087s] [ 50%] Built target ament_cmake_python_build_gps_tools_egg

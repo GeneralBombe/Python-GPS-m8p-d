@@ -1,0 +1,23 @@
+[0.000000] (-) TimerEvent: {}
+[0.002094] (-) JobUnselected: {'identifier': 'gps_msgs'}
+[0.004843] (-) JobUnselected: {'identifier': 'gps_tools'}
+[0.005833] (-) JobUnselected: {'identifier': 'gpsd_client'}
+[0.006156] (-) JobUnselected: {'identifier': 'sensor_data'}
+[0.006659] (gps_umd) JobQueued: {'identifier': 'gps_umd', 'dependencies': OrderedDict([('gps_msgs', '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs'), ('gps_tools', '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_tools'), ('gpsd_client', '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gpsd_client')])}
+[0.008462] (gps_umd) JobStarted: {'identifier': 'gps_umd'}
+[0.098308] (-) TimerEvent: {}
+[0.200208] (-) TimerEvent: {}
+[0.305949] (-) TimerEvent: {}
+[0.407774] (-) TimerEvent: {}
+[0.509147] (-) TimerEvent: {}
+[0.610852] (-) TimerEvent: {}
+[0.713311] (-) TimerEvent: {}
+[0.815038] (-) TimerEvent: {}
+[0.916767] (-) TimerEvent: {}
+[1.018367] (-) TimerEvent: {}
+[1.121494] (-) TimerEvent: {}
+[1.223411] (-) TimerEvent: {}
+[1.326729] (-) TimerEvent: {}
+[1.440173] (gps_umd) JobEnded: {'identifier': 'gps_umd', 'rc': 1}
+[1.447449] (-) TimerEvent: {}
+[1.455048] (-) EventReactorShutdown: {}

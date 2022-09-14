@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "test_node = sensor_data.my_first_node:main"
-        ],
+                'talker = sensor_data.publisher_member_function:main',
+                'listener = sensor_data.subscriber_member_function:main',        ],
     },
 )

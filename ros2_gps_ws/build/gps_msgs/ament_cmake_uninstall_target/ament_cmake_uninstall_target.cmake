@@ -55,3 +55,6 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+
+# uninstall files installed using the symlink install functions
+include("/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_msgs/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

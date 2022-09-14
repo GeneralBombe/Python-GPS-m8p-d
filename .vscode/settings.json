@@ -1,3 +1,6 @@
 {
-    "ros.distro": "humble"
+    "ros.distro": "humble",
+    "python.analysis.extraPaths": [
+        "./ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages"
+    ]
 }

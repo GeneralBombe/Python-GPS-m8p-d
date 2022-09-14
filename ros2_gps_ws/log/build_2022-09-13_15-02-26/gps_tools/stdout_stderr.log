@@ -1,0 +1,10 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/utm_odometry_component.dir/src/utm_odometry_component.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/utm_odometry_to_navsatfix_component.dir/src/utm_odometry_to_navsatfix_component.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_gps_tools
+running egg_info
+writing gps_tools.egg-info/PKG-INFO
+writing dependency_links to gps_tools.egg-info/dependency_links.txt
+writing top-level names to gps_tools.egg-info/top_level.txt
+reading manifest file 'gps_tools.egg-info/SOURCES.txt'
+writing manifest file 'gps_tools.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_gps_tools_egg

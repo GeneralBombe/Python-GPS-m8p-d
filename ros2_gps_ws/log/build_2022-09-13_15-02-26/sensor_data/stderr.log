@@ -1,0 +1,5 @@
+  File "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/my_first_node.py", line 26
+    
+    ^
+SyntaxError: expected 'except' or 'finally' block
+

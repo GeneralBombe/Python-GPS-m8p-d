@@ -1,0 +1,216 @@
+[10.227s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'gps_umd']
+[10.228s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['gps_umd'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff98e4b250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff98e4ace0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff98e4ace0>>)
+[12.011s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[12.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[12.013s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[12.013s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[12.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[12.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[12.016s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws'
+[12.019s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[12.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[12.024s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[12.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[12.027s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[12.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[12.030s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[12.031s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[12.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[12.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[12.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[12.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[12.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[12.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[12.234s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[12.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[12.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[12.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[12.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[12.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[12.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[12.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[12.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[12.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[12.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[12.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[12.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[12.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[12.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[12.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[12.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[12.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[12.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[12.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[12.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[12.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[12.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[12.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extensions ['ignore', 'ignore_ament_install']
+[12.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extension 'ignore'
+[12.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extension 'ignore_ament_install'
+[12.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extensions ['colcon_pkg']
+[12.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extension 'colcon_pkg'
+[12.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extensions ['colcon_meta']
+[12.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extension 'colcon_meta'
+[12.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extensions ['ros']
+[12.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extension 'ros'
+[12.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extensions ['cmake', 'python']
+[12.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extension 'cmake'
+[12.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extension 'python'
+[12.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extensions ['python_setup_py']
+[12.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd) by extension 'python_setup_py'
+[12.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/build) by extensions ['ignore', 'ignore_ament_install']
+[12.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/build) by extension 'ignore'
+[12.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/build) ignored
+[12.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_msgs) by extensions ['ignore', 'ignore_ament_install']
+[12.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_msgs) by extension 'ignore'
+[12.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_msgs) by extension 'ignore_ament_install'
+[12.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_msgs) by extensions ['colcon_pkg']
+[12.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_msgs) by extension 'colcon_pkg'
+[12.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_msgs) by extensions ['colcon_meta']
+[12.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_msgs) by extension 'colcon_meta'
+[12.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_msgs) by extensions ['ros']
+[12.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_msgs) by extension 'ros'
+[12.377s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_umd/gps_msgs' with type 'ros.ament_cmake' and name 'gps_msgs'
+[12.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_tools) by extensions ['ignore', 'ignore_ament_install']
+[12.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_tools) by extension 'ignore'
+[12.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_tools) by extension 'ignore_ament_install'
+[12.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_tools) by extensions ['colcon_pkg']
+[12.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_tools) by extension 'colcon_pkg'
+[12.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_tools) by extensions ['colcon_meta']
+[12.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_tools) by extension 'colcon_meta'
+[12.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_tools) by extensions ['ros']
+[12.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_tools) by extension 'ros'
+[12.410s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_umd/gps_tools' with type 'ros.ament_cmake' and name 'gps_tools'
+[12.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_umd) by extensions ['ignore', 'ignore_ament_install']
+[12.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_umd) by extension 'ignore'
+[12.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_umd) by extension 'ignore_ament_install'
+[12.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_umd) by extensions ['colcon_pkg']
+[12.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_umd) by extension 'colcon_pkg'
+[12.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_umd) by extensions ['colcon_meta']
+[12.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_umd) by extension 'colcon_meta'
+[12.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_umd) by extensions ['ros']
+[12.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gps_umd) by extension 'ros'
+[12.441s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_umd/gps_umd' with type 'ros.catkin' and name 'gps_umd'
+[12.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gpsd_client) by extensions ['ignore', 'ignore_ament_install']
+[12.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gpsd_client) by extension 'ignore'
+[12.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gpsd_client) by extension 'ignore_ament_install'
+[12.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gpsd_client) by extensions ['colcon_pkg']
+[12.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gpsd_client) by extension 'colcon_pkg'
+[12.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gpsd_client) by extensions ['colcon_meta']
+[12.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gpsd_client) by extension 'colcon_meta'
+[12.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gpsd_client) by extensions ['ros']
+[12.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/gpsd_client) by extension 'ros'
+[12.476s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_umd/gpsd_client' with type 'ros.ament_cmake' and name 'gpsd_client'
+[12.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/install) by extensions ['ignore', 'ignore_ament_install']
+[12.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/install) by extension 'ignore'
+[12.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/install) ignored
+[12.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/log) by extensions ['ignore', 'ignore_ament_install']
+[12.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/log) by extension 'ignore'
+[12.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_umd/log) ignored
+[12.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[12.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore'
+[12.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore_ament_install'
+[12.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_pkg']
+[12.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_pkg'
+[12.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_meta']
+[12.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_meta'
+[12.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ros']
+[12.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ros'
+[12.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['cmake', 'python']
+[12.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'cmake'
+[12.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'python'
+[12.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['python_setup_py']
+[12.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'python_setup_py'
+[12.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extensions ['ignore', 'ignore_ament_install']
+[12.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extension 'ignore'
+[12.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extension 'ignore_ament_install'
+[12.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extensions ['colcon_pkg']
+[12.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extension 'colcon_pkg'
+[12.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extensions ['colcon_meta']
+[12.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extension 'colcon_meta'
+[12.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extensions ['ros']
+[12.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extension 'ros'
+[12.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extensions ['cmake', 'python']
+[12.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extension 'cmake'
+[12.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extension 'python'
+[12.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extensions ['python_setup_py']
+[12.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces/msg) by extension 'python_setup_py'
+[12.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extensions ['ignore', 'ignore_ament_install']
+[12.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extension 'ignore'
+[12.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extension 'ignore_ament_install'
+[12.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extensions ['colcon_pkg']
+[12.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extension 'colcon_pkg'
+[12.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extensions ['colcon_meta']
+[12.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extension 'colcon_meta'
+[12.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extensions ['ros']
+[12.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extension 'ros'
+[12.554s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_data' with type 'ros.ament_python' and name 'sensor_data'
+[12.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[12.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[12.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[12.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[12.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[12.994s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gps_msgs' in 'src/gps_umd/gps_msgs'
+[12.995s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensor_data' in 'src/sensor_data'
+[12.997s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gps_tools' in 'src/gps_umd/gps_tools'
+[12.998s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gpsd_client' in 'src/gps_umd/gpsd_client'
+[13.010s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[13.011s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[13.091s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[13.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[14.805s] Level 5:colcon.colcon_core.verb:set package 'gps_umd' build argument 'cmake_args' from command line to 'None'
+[14.806s] Level 5:colcon.colcon_core.verb:set package 'gps_umd' build argument 'cmake_target' from command line to 'None'
+[14.807s] Level 5:colcon.colcon_core.verb:set package 'gps_umd' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.808s] Level 5:colcon.colcon_core.verb:set package 'gps_umd' build argument 'cmake_clean_cache' from command line to 'False'
+[14.809s] Level 5:colcon.colcon_core.verb:set package 'gps_umd' build argument 'cmake_clean_first' from command line to 'False'
+[14.810s] Level 5:colcon.colcon_core.verb:set package 'gps_umd' build argument 'cmake_force_configure' from command line to 'False'
+[14.811s] Level 5:colcon.colcon_core.verb:set package 'gps_umd' build argument 'ament_cmake_args' from command line to 'None'
+[14.813s] Level 5:colcon.colcon_core.verb:set package 'gps_umd' build argument 'catkin_cmake_args' from command line to 'None'
+[14.813s] Level 5:colcon.colcon_core.verb:set package 'gps_umd' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.814s] DEBUG:colcon.colcon_core.verb:Building package 'gps_umd' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/gps_umd', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_umd', 'merge_install': False, 'path': '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/gps_umd/gps_umd', 'symlink_install': False, 'test_result_base': None}
+[14.824s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[14.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[14.881s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/gps_umd/gps_umd' with build type 'catkin'
+[14.883s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/gps_umd/gps_umd'
+[16.408s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[16.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.474s] ERROR:colcon.colcon_cmake.task.cmake.build:Failed to find the following files:
+- /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_tools/share/gps_tools/package.sh
+- /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gpsd_client/share/gpsd_client/package.sh
+Check that the following packages have been built:
+- gps_tools
+- gpsd_client
+[16.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_umd)
+[16.640s] Level 1:colcon.colcon_core.environment:checking '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_umd' for CMake module files
+[16.660s] Level 1:colcon.colcon_core.environment:checking '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_umd' for CMake config files
+[16.667s] Level 1:colcon.colcon_core.environment:checking '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_umd/bin'
+[16.669s] Level 1:colcon.colcon_core.environment:checking '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_umd/lib/pkgconfig/gps_umd.pc'
+[16.671s] Level 1:colcon.colcon_core.environment:checking '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_umd/lib/python3.10/site-packages'
+[16.674s] Level 1:colcon.colcon_core.environment:checking '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_umd/bin'
+[16.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_umd/share/gps_umd/package.ps1'
+[16.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_umd/share/gps_umd/package.dsv'
+[16.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_umd/share/gps_umd/package.sh'
+[16.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_umd/share/gps_umd/package.bash'
+[16.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_umd/share/gps_umd/package.zsh'
+[16.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_umd/share/colcon-core/packages/gps_umd)
+[16.811s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.815s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[16.816s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.038s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[17.039s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.040s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.041s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.050s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[17.051s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/local_setup.ps1'
+[17.092s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/_local_setup_util_ps1.py'
+[17.110s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/setup.ps1'
+[17.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/local_setup.sh'
+[17.160s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/_local_setup_util_sh.py'
+[17.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/setup.sh'
+[17.200s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/local_setup.bash'
+[17.219s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/setup.bash'
+[17.237s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/local_setup.zsh'
+[17.247s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/setup.zsh'

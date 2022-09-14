@@ -1,0 +1,18 @@
+[6.702s] Invoking command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data': PYTHONPATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data --editable --build-directory /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/build --no-deps install_data --install-dir /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data
+[9.275s] running develop
+[10.971s] running egg_info
+[10.972s] writing sensor_data.egg-info/PKG-INFO
+[10.975s] writing dependency_links to sensor_data.egg-info/dependency_links.txt
+[10.977s] writing entry points to sensor_data.egg-info/entry_points.txt
+[10.979s] writing requirements to sensor_data.egg-info/requires.txt
+[10.981s] writing top-level names to sensor_data.egg-info/top_level.txt
+[11.013s] reading manifest file 'sensor_data.egg-info/SOURCES.txt'
+[11.024s] writing manifest file 'sensor_data.egg-info/SOURCES.txt'
+[11.034s] running build_ext
+[11.037s] Creating /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages/sensor-data.egg-link (link to .)
+[11.042s] Installing listener script to /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/sensor_data
+[11.044s] Installing talker script to /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/sensor_data
+[11.047s] 
+[11.048s] Installed /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data
+[11.049s] running install_data
+[11.341s] Invoked command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data' returned '0': PYTHONPATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data --editable --build-directory /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/build --no-deps install_data --install-dir /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data
