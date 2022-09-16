@@ -71,7 +71,6 @@ class ublox:
         
     
     def gpscord(self): 
-            self.serialReadLine()
             if(self.output[0:6] == "$GNGLL"):
                 #Example output: ['$GNGLL', '4805.45917',
                 #'N', '01138.80482', 'E', '074351.00', 'A', 'A*79\r\n']

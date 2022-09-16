@@ -21,14 +21,33 @@ class MinimalPublisher(Node):
 
     def timer_callback(self):
         self.gps_objekt.serialReadLine()
+        
+        speed = self.gps_objekt.speedParseGNVTG()
+        if speed is not None:
+            msg = GPSFix()
+            msg.speed = speed
+            self.get_logger().info('Publishing Speed: "%s"' % (speed))
+            self.publisher_.publish(msg)
+        
+        
+        
+        
+        time = self.gps_objekt.getTime()
+        if time is not None:
+            self.get_logger()
+            msg = String()
+            seperator = ','
+            msg.data = str(seperator.join(time))
+            self.publisher_.publish(msg)
 
         cord = self.gps_objekt.gpscord() #latitude / longitude
         if cord[0] != -999 and self.first is True:                                           # CHANGE
             self.first = False
             msg = GPSFix()        
             msg.latitude = float(cord[0])                                       # CHANGE
-            msg.longitude = float(cord[1])                                           # CHANGE
+            msg.longitude = float(cord[1])  
             self.publisher_.publish(msg)
+
             self.get_logger().info('Publishing : "%s", "%s"' % (msg.latitude, msg.longitude))
         if cord[0] == -999 and self.first is False:
             self.first = True
