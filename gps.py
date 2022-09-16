@@ -13,7 +13,7 @@ import _thread
 
 from math import radians, cos, sin, asin, sqrt
 ##%%
-#lmfao
+
 logging.basicConfig(filename="log2.txt", level=logging.DEBUG)
 
 class imu:
@@ -38,7 +38,6 @@ class ublox:
             self.output = self.output.decode('Ascii')
     
     def serialReadLine(self):
-        if(self.serialPort.in_waiting > 0):
             self.output = self.serialPort.readline()
             self.output = self.output.decode('Ascii')
 
