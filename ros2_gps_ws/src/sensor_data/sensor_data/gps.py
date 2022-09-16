@@ -39,17 +39,47 @@ class ublox:
             self.output = self.output.decode('Ascii')
     
     def serialReadLine(self):
+        #print(self.serialPort.in_waiting)
+        self.output=[]
         if(self.serialPort.in_waiting > 0):
-            self.output = self.serialPort.readline()
-            self.output = self.output.decode('Ascii')
-
-
+            tmp=self.serialPort.readline()
+            #print(self.output)
+            self.output.append(tmp.decode('Ascii'))
+            #print(self.output)
+        if len(self.output)>0:
+            return 1
+        else:
+            return 0
+        
     def dm(self, x):
         degrees = int(x) // 100
         minutes = x - 100*degrees
 
         return degrees, minutes
-
+    
+    def interpretMessage(self,msg_str):
+        if msg_str.contains("GNGLL"):
+            tmp=self.getTime(2)
+            tmp2=self.gpscord()
+            return [tmp,tmp2]
+        elif msg_str.contains("GPGSV"):
+            return self.speedParseGNVTG() 
+        else:
+            return None 
+        '''
+             
+        elif msg_str.contains("GNRMC"):
+            print("TODO")
+        elif msg_str.contains("GNVTG"):
+             print("TODO")       
+        elif msg_str.contains("GNGSA"):
+             print("TODO")       
+        elif msg_str.contains("GLGSV"):
+             print("TODO")       
+        elif msg_str.contains("GNTXT"):
+             print("TODO")
+             
+             '''
 
     def decimal_degrees(self, degrees, minutes):
         return degrees + minutes/60 
@@ -68,8 +98,6 @@ class ublox:
                     rueck = (Stunde % 24), (Minute), (Sekunde)
                     return rueck
             
-        
-    
     def gpscord(self): 
             if(self.output[0:6] == "$GNGLL"):
                 #Example output: ['$GNGLL', '4805.45917',
@@ -114,8 +142,6 @@ class ublox:
                     geo = (-999, -999)
                     return geo
             
-                    
-    
     
     def serialOutput(self):
         output = ""
@@ -140,7 +166,8 @@ class ublox:
                 return liste
 
     def dateGNRMC(self):
-        while True:
+        print('TODO')
+        while False:
             op = self.customSerialOutput("GNRMC")
             if op is not None:
                 Date = op[9]
@@ -149,12 +176,13 @@ class ublox:
                 Jahr = int(Date[5:6])
                 final = (Tag, Monat, Jahr)
                 logging.debug("Datum: " + str(final))
-
+            
     def speedParseGNVTG(self):
         
-        while True:
-            op = self.serialOutput()
-           
+        #while True:
+        op = self.output
+        
+        if 0:
             if op is not None:
                 if op[0] == "$GNVTG":
                     logging.debug("Hier!!!!")
@@ -165,7 +193,7 @@ class ublox:
                     
                 else:
                     logger.debug(op[0])
-                
+        return op[7]
 
 
     def haversine(self, lon1, lat1, lon2, lat2):
@@ -245,22 +273,5 @@ class ublox:
         logging.info(retr)
         return distance, Kmh, firstGPS, lastGPS, firstTime, finishTime 
 
-serPort = serial.Serial(port = "/dev/ttyACM0", baudrate=9600,bytesize=8, timeout=2, stopbits=serial.STOPBITS_ONE)
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-   
-
+#serPort = serial.Serial(port = "/dev/ttyACM0", baudrate=9600,bytesize=8, timeout=2, stopbits=serial.STOPBITS_ONE)
 
