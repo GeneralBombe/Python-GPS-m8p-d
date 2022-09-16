@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/gps_umd/gps_tools/include/**",
+        "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/sensor_interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

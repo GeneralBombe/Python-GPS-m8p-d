@@ -1,0 +1,5 @@
+  File "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/subscriber_member_function.py", line 23
+    self.get_logger().info('I heard: "%s", "%s"' % (msg.longitude, msg.latitude)  # CHANGE
+                          ^
+SyntaxError: '(' was never closed
+

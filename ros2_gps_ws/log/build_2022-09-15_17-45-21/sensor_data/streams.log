@@ -1,0 +1,34 @@
+[6.237s] Invoking command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data': AMENT_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs LD_LIBRARY_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages:/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data --uninstall --editable --build-directory /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/build
+[8.857s] running develop
+[10.902s] Invoked command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data' returned '0': AMENT_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs LD_LIBRARY_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages:/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data --uninstall --editable --build-directory /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/build
+[10.918s] Invoking command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/sensor_data': AMENT_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs LD_LIBRARY_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages:/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_data build --build-base /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/build install --prefix /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data --record /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/install.log --single-version-externally-managed
+[13.381s] running egg_info
+[13.386s] writing ../../build/sensor_data/sensor_data.egg-info/PKG-INFO
+[13.388s] writing dependency_links to ../../build/sensor_data/sensor_data.egg-info/dependency_links.txt
+[13.389s] writing entry points to ../../build/sensor_data/sensor_data.egg-info/entry_points.txt
+[13.391s] writing requirements to ../../build/sensor_data/sensor_data.egg-info/requires.txt
+[13.392s] writing top-level names to ../../build/sensor_data/sensor_data.egg-info/top_level.txt
+[13.412s] reading manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'
+[13.420s] writing manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'
+[13.421s] running build
+[13.422s] running build_py
+[13.426s] copying sensor_data/publisher_member_function.py -> /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/build/lib/sensor_data
+[13.429s] running install
+[13.432s] running install_lib
+[13.440s] copying /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/build/lib/sensor_data/publisher_member_function.py -> /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data
+[13.445s] byte-compiling /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[13.448s]   File "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/subscriber_member_function.py", line 23
+[13.449s]     self.get_logger().info('I heard: "%s", "%s"' % (msg.longitude, msg.latitude)  # CHANGE
+[13.450s]                           ^
+[13.450s] SyntaxError: '(' was never closed
+[13.451s] 
+[13.453s] byte-compiling /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[13.454s] running install_data
+[13.459s] running install_egg_info
+[13.472s] removing '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info' (and everything under it)
+[13.475s] Copying ../../build/sensor_data/sensor_data.egg-info to /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info
+[13.486s] running install_scripts
+[13.631s] Installing listener script to /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/sensor_data
+[13.633s] Installing talker script to /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/sensor_data
+[13.637s] writing list of installed files to '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/install.log'
+[13.887s] Invoked command in '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/sensor_data' returned '0': AMENT_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs LD_LIBRARY_PATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages:/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_data build --build-base /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/build install --prefix /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data --record /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_data/install.log --single-version-externally-managed

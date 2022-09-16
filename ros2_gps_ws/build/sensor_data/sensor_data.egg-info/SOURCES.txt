@@ -10,6 +10,7 @@ setup.py
 ../../build/sensor_data/sensor_data.egg-info/zip-safe
 resource/sensor_data
 sensor_data/__init__.py
+sensor_data/gps.py
 sensor_data/my_first_node.py
 sensor_data/publish_data.py
 sensor_data/publisher_member_function.py
