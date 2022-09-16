@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.006843] (-) JobUnselected: {'identifier': 'gps_msgs'}
+[0.007977] (-) JobUnselected: {'identifier': 'gps_tools'}
+[0.009899] (-) JobUnselected: {'identifier': 'gps_umd'}
+[0.013623] (-) JobUnselected: {'identifier': 'gpsd_client'}
+[0.014709] (-) JobUnselected: {'identifier': 'sensor_data'}
+[0.015199] (sensor_interfaces) JobQueued: {'identifier': 'sensor_interfaces', 'dependencies': OrderedDict()}
+[0.015673] (sensor_interfaces) JobStarted: {'identifier': 'sensor_interfaces'}
+[0.105238] (-) TimerEvent: {}
+[0.208666] (-) TimerEvent: {}
+[0.311012] (-) TimerEvent: {}
+[0.320209] (sensor_interfaces) JobProgress: {'identifier': 'sensor_interfaces', 'progress': 'cmake'}
+[0.330543] (sensor_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/sensor_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_interfaces'], 'cwd': '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.43.159 50246 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pi/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pi/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('TERM_PROGRAM_VERSION', '1.71.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d8dd6091-ad4d-4eb3-bbc5-cd9b4f2462e1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pi/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pi/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5513d89785.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data:/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.43.159 50246 192.168.43.252 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data/lib/python3.10/site-packages:/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/gps_msgs:/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/install/sensor_data:/opt/ros/humble')]), 'shell': False}
+[0.411384] (-) TimerEvent: {}
+[0.512896] (-) TimerEvent: {}
+[0.615257] (-) TimerEvent: {}
+[0.716917] (-) TimerEvent: {}
+[0.818924] (-) TimerEvent: {}
+[0.923967] (-) TimerEvent: {}
+[1.025661] (-) TimerEvent: {}
+[1.128224] (-) TimerEvent: {}
+[1.230487] (-) TimerEvent: {}
+[1.335404] (-) TimerEvent: {}
+[1.440755] (-) TimerEvent: {}
+[1.550393] (-) TimerEvent: {}
+[1.652497] (-) TimerEvent: {}
+[1.664148] (sensor_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.752869] (-) TimerEvent: {}
+[1.858208] (-) TimerEvent: {}
+[1.963199] (-) TimerEvent: {}
+[2.067132] (-) TimerEvent: {}
+[2.172630] (-) TimerEvent: {}
+[2.278233] (-) TimerEvent: {}
+[2.384899] (-) TimerEvent: {}
+[2.486996] (-) TimerEvent: {}
+[2.592982] (-) TimerEvent: {}
+[2.699046] (-) TimerEvent: {}
+[2.800704] (-) TimerEvent: {}
+[2.913397] (-) TimerEvent: {}
+[3.015946] (-) TimerEvent: {}
+[3.118083] (-) TimerEvent: {}
+[3.219721] (-) TimerEvent: {}
+[3.321635] (-) TimerEvent: {}
+[3.423360] (-) TimerEvent: {}
+[3.529649] (-) TimerEvent: {}
+[3.631461] (-) TimerEvent: {}
+[3.737071] (-) TimerEvent: {}
+[3.838666] (-) TimerEvent: {}
+[3.940306] (-) TimerEvent: {}
+[4.045902] (-) TimerEvent: {}
+[4.144410] (sensor_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.146182] (-) TimerEvent: {}
+[4.189468] (sensor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.237658] (sensor_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.246506] (-) TimerEvent: {}
+[4.348196] (-) TimerEvent: {}
+[4.449700] (-) TimerEvent: {}
+[4.551116] (-) TimerEvent: {}
+[4.652918] (-) TimerEvent: {}
+[4.754630] (-) TimerEvent: {}
+[4.855873] (-) TimerEvent: {}
+[4.957245] (-) TimerEvent: {}
+[5.058830] (-) TimerEvent: {}
+[5.113011] (sensor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.159110] (-) TimerEvent: {}
+[5.260627] (-) TimerEvent: {}
+[5.362884] (-) TimerEvent: {}
+[5.464808] (-) TimerEvent: {}
+[5.566323] (-) TimerEvent: {}
+[5.668499] (-) TimerEvent: {}
+[5.770137] (-) TimerEvent: {}
+[5.871689] (-) TimerEvent: {}
+[5.973416] (-) TimerEvent: {}
+[6.074915] (-) TimerEvent: {}
+[6.176946] (-) TimerEvent: {}
+[6.278560] (-) TimerEvent: {}
+[6.380265] (-) TimerEvent: {}
+[6.481729] (-) TimerEvent: {}
+[6.583215] (-) TimerEvent: {}
+[6.685277] (-) TimerEvent: {}
+[6.786586] (-) TimerEvent: {}
+[6.888288] (-) TimerEvent: {}
+[6.990441] (-) TimerEvent: {}
+[7.091756] (-) TimerEvent: {}
+[7.193799] (-) TimerEvent: {}
+[7.295801] (-) TimerEvent: {}
+[7.397529] (-) TimerEvent: {}
+[7.499490] (-) TimerEvent: {}
+[7.601509] (-) TimerEvent: {}
+[7.703262] (-) TimerEvent: {}
+[7.804950] (-) TimerEvent: {}
+[7.906416] (-) TimerEvent: {}
+[8.008580] (-) TimerEvent: {}
+[8.110988] (-) TimerEvent: {}
+[8.212813] (-) TimerEvent: {}
+[8.314324] (-) TimerEvent: {}
+[8.415978] (-) TimerEvent: {}
+[8.517373] (-) TimerEvent: {}
+[8.618948] (-) TimerEvent: {}
+[8.720206] (-) TimerEvent: {}
+[8.822408] (-) TimerEvent: {}
+[8.924193] (-) TimerEvent: {}
+[9.029064] (-) TimerEvent: {}
+[9.135962] (-) TimerEvent: {}
+[9.237365] (-) TimerEvent: {}
+[9.338685] (-) TimerEvent: {}
+[9.440885] (-) TimerEvent: {}
+[9.542300] (-) TimerEvent: {}
+[9.643511] (-) TimerEvent: {}
+[9.745142] (-) TimerEvent: {}
+[9.846625] (-) TimerEvent: {}
+[9.948420] (-) TimerEvent: {}
+[10.050372] (-) TimerEvent: {}
+[10.161055] (-) TimerEvent: {}
+[10.266637] (-) TimerEvent: {}
+[10.368964] (-) TimerEvent: {}
+[10.470870] (-) TimerEvent: {}
+[10.572310] (-) TimerEvent: {}
+[10.674083] (-) TimerEvent: {}
+[10.775929] (-) TimerEvent: {}
+[10.877694] (-) TimerEvent: {}
+[10.979106] (-) TimerEvent: {}
+[11.080722] (-) TimerEvent: {}
+[11.182260] (-) TimerEvent: {}
+[11.284662] (-) TimerEvent: {}
+[11.386173] (-) TimerEvent: {}
+[11.487912] (-) TimerEvent: {}
+[11.589723] (-) TimerEvent: {}
+[11.602699] (sensor_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[11.604763] (sensor_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[11.606388] (sensor_interfaces) StderrLine: {'line': b'  sensor_interfaces --arguments-file\n'}
+[11.607857] (sensor_interfaces) StderrLine: {'line': b'  /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_interfaces/rosidl_adapter__arguments__sensor_interfaces.json\n'}
+[11.609610] (sensor_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[11.611070] (sensor_interfaces) StderrLine: {'line': b'  /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_interfaces/rosidl_adapter/sensor_interfaces\n'}
+[11.612586] (sensor_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[11.614143] (sensor_interfaces) StderrLine: {'line': b'  /home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_interfaces/rosidl_adapter/sensor_interfaces.idls)\n'}
+[11.615689] (sensor_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[11.617333] (sensor_interfaces) StderrLine: {'line': b'\n'}
+[11.618828] (sensor_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[11.620100] (sensor_interfaces) StderrLine: {'line': b'\n'}
+[11.621471] (sensor_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[11.622800] (sensor_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[11.624449] (sensor_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[11.625834] (sensor_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[11.627328] (sensor_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[11.629081] (sensor_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[11.630880] (sensor_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[11.632856] (sensor_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[11.634751] (sensor_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[11.636725] (sensor_interfaces) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[11.638495] (sensor_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[11.640441] (sensor_interfaces) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[11.642351] (sensor_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 850, in parse_service_string\n'}
+[11.644507] (sensor_interfaces) StderrLine: {'line': b'      raise InvalidServiceSpecification(\n'}
+[11.646010] (sensor_interfaces) StderrLine: {'line': b'\n'}
+[11.647663] (sensor_interfaces) StderrLine: {'line': b'  rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator\n'}
+[11.649119] (sensor_interfaces) StderrLine: {'line': b"  '---' between request and response\n"}
+[11.650256] (sensor_interfaces) StderrLine: {'line': b'\n'}
+[11.651188] (sensor_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[11.652406] (sensor_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[11.653678] (sensor_interfaces) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[11.654863] (sensor_interfaces) StderrLine: {'line': b'\n'}
+[11.656144] (sensor_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[11.657408] (sensor_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[11.658620] (sensor_interfaces) StdoutLine: {'line': b'See also "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/build/sensor_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[11.690001] (-) TimerEvent: {}
+[11.704001] (sensor_interfaces) CommandEnded: {'returncode': 1}
+[11.790316] (-) TimerEvent: {}
+[11.893048] (-) TimerEvent: {}
+[11.995653] (-) TimerEvent: {}
+[12.040180] (sensor_interfaces) JobEnded: {'identifier': 'sensor_interfaces', 'rc': 1}
+[12.054953] (-) EventReactorShutdown: {}

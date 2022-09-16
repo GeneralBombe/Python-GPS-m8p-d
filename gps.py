@@ -246,20 +246,21 @@ class ublox:
         return distance, Kmh, firstGPS, lastGPS, firstTime, finishTime 
 
 serPort = serial.Serial(port = "/dev/ttyACM0", baudrate=9600,bytesize=8, timeout=2, stopbits=serial.STOPBITS_ONE)
-serPort2 = serial.Serial(port='/dev/ttyUSB0', baudrate=9600, timeout=1,
-                       xonxoff=False, rtscts=False, dsrdtr=True)
 
 
 
 
-'''
+
+
+
+
 while True:
     Objekt = ublox(serPort)
     buffer = Objekt.serialOutput()
     if buffer is not None:
         logging.debug(buffer)
         logging.debug(buffer)
-'''
+
 
 
     

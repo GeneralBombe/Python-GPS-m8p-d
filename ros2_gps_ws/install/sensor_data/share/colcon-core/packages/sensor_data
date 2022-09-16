@@ -1,1 +1,1 @@
-more_interfaces:rclpy:std_msgs
+gps_msgs:more_interfaces:rclpy:std_msgs

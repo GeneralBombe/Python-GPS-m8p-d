@@ -1,0 +1,8 @@
+{
+  "package_name": "sensor_interfaces",
+  "non_idl_tuples": [
+    "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/sensor_interfaces:msg/GPSFix.msg",
+    "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/sensor_interfaces:msg/GPSStatus.msg",
+    "/home/pi/gps/Python-GPS-m8p-d/ros2_gps_ws/src/sensor_interfaces:srv/AddThreeInts.srv"
+  ]
+}

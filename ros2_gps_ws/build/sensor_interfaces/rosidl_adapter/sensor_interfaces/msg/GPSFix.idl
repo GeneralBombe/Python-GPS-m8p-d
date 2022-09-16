@@ -2,7 +2,6 @@
 // with input from sensor_interfaces/msg/GPSFix.msg
 // generated code does not contain a copyright notice
 
-#include "sensor_interfaces/msg/GPSStatus.idl"
 
 module sensor_interfaces {
   module msg {
@@ -13,11 +12,9 @@ module sensor_interfaces {
       const uint8 COVARIANCE_TYPE_DIAGONAL_KNOWN = 2;
       const uint8 COVARIANCE_TYPE_KNOWN = 3;
     };
+    @verbatim (language="comment", text=
+      "Latitude (degrees). Positive is north of equator; negative is south.")
     struct GPSFix {
-      sensor_interfaces::msg::GPSStatus status;
-
-      @verbatim (language="comment", text=
-        "Latitude (degrees). Positive is north of equator; negative is south.")
       double latitude;
 
       @verbatim (language="comment", text=
